@@ -4,6 +4,7 @@ public class Utility {
     public static String scanString(){
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
+        //scanner.close();
         return name;
     }
     public static int scanInteger(){
